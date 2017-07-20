@@ -26,7 +26,7 @@ use std::iter;
 
 use syntax::abi::Abi;
 use syntax::ast::{self, DUMMY_NODE_ID};
-use syntax::codemap::{Span, Spanned, dummy_spanned, respan, spanned, DUMMY_SP};
+use syntax::codemap::{Span, Spanned, dummy_spanned, respan, Spanned, DUMMY_SP};
 use syntax::errors::Handler;
 use syntax::ext::base::ExtCtxt;
 use syntax::ext::build::AstBuilder;
